@@ -61,7 +61,7 @@ function build_flink_parcel {
     mv ${flink_unzip_folder}  ${flink_parcel_folder}/lib/${flink_service_name_lower}
   fi
   cp -r flink-parcel-src/meta $flink_parcel_folder/
-  chmod 755 flink-parcel-src/flink*
+  #chmod 755 flink-parcel-src/flink*
   sed -i -e "s/%flink_version%/$flink_parcel_folder/" ./$flink_parcel_folder/meta/flink_env.sh
   sed -i -e "s/%VERSION%/$FLINK_VERSION/" ./$flink_parcel_folder/meta/parcel.json
   sed -i -e "s/%EXTENS_VERSION%/$EXTENS_VERSION/" ./$flink_parcel_folder/meta/parcel.json
