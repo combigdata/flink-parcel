@@ -8,7 +8,14 @@
 	"scripts": {
         	"defines": "flink_env.sh"
 			},
-	"packages": [],
+	"packages": [{
+		"name": "flink-master",
+		"version": "%VERSION%+flink%VERSION%"
+			},
+		 {
+		"name": "flink-worker",
+		"version": "%VERSION%+flink%VERSION%"
+			}],
 	"components": [{
 		"name": "flink",
 		"version": "%VERSION%-flink%VERSION%",
