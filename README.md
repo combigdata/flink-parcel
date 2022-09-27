@@ -42,7 +42,7 @@ csd的jar包必须置于/opt/cloudera/csd/目录才可以在添加集群服务�
 (1)**下载制作包**
 
 ```
-git clone https://github.com/asanbros/flink-parcel.git
+git clone https://gitee.com/jcokee/flink-parcel.git
 ```
 (2)**修改配置文件**　flink-parcel.properties
 
