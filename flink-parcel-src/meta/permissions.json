@@ -1,0 +1,7 @@
+{
+"lib/flink/bin/config.sh": {
+"user": "flink",
+"group": "flink",
+"permissions": "0755"
+}
+}
